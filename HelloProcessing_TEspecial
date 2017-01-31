@@ -1,0 +1,27 @@
+void setup()
+{
+  size(500,400);
+  background(0);
+}
+void draw()
+{
+  fill(255);
+  ellipse(250,100,80,80);                  //cabeza
+  
+  fill(0);
+  ellipse(240,100,10,10);                  //ojo
+  ellipse(260,100,10,10);
+  fill(255);
+  
+  rect(237,200,15,60);
+  rect(190,160,30,10);                    //brazo
+  
+  rect(285,160,30,10);                    //pierna
+  rect(252,200,15,60);
+  
+  rect(227,140,50,70);                    //torso
+  fill(0);
+  
+  fill(255,0,0);
+  ellipse(mouseX,mouseY,50,50);
+}
